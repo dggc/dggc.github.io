@@ -44,7 +44,7 @@
 
         outputBox.value = "⌛ Transcribing and formatting...";
 
-        const res = await fetch("http://localhost:5678/webhook/dictation", {
+        const res = await fetch("http://localhost:5678/webhook-test/dictation", {
           method: "POST",
           body: formData,
         });
